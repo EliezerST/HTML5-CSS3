@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Aplicando Regras CSS </title>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS Incorporado, Margens -->
+    <style>
+       header{
+        border: 5px solid rgb(253, 4, 4) 
+       
+       /* margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-botton: 40px; 
+        margin: 40px; */
+       } 
+       div{
+        background-color: rgb(255, 255, 255);
+       }
+       section{
+        background-color: rgb(255, 255, 255)
+       }
+       #sec04{
+        background: #ffffff;
+        border: 5px solid #ffffff;
+        border-radius: 10px;
+       }
+       .formatParagrafo{
+        background: #363636;
+        border: 5px solid rgb(231, 231, 231);
+        /* border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px; */
+        border-radius: 10px 0px 0px 10px;
+        /* padding-left: 40px;  */
+        padding:40px;
+       }
+       .formatParagrafo > div > p {
+        background: #303030;
+        color: #f1f2f6;
+        font-family: 'Edu TAS Beginner', cursive;
+       }
+    </style>
+</head>
+
+<body style="background-color: rgba(80, 80, 80, 0.836); font-size: 1.1em;">
+    <header>
+        <nav>
+          <p> Aqui seria o menu de nevegação </p>
+        </nav>
+        <div id="banner"> Aqui seria um Banner </div>
+    </header>
+    <hr>
+    <main>
+        <section> <h1> Primeira seção do site </h1> </section>
+        <hr>
+        <section style="color:crimson;"> <h2> Segunda seção do site </h2> </section>
+        <section> <h3> Terceira Seção do site </h3> </section>
+        <section id="sec04"> <h4> Quarta Seção do site </h4> </section>
+        <section> <h5> Quinta Seção do site </h5> </section>
+        <section> <h6> Sexta Seção do site </h6> </section>
+        <section class="formatParagrafo">
+            <div>
+                <p>
+                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                </p>
+            </div> 
+        </section>
+        <section class="formatParagrafo"> 
+            <div> 
+                <p>
+                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+               </p>
+            </div>
+        </section>
+    </main>
+    <hr>
+    <footer>
+      <p> Todos os direitos reservados - &copy; - 2023 </p>
+    </footer>
+</body>
+</html>

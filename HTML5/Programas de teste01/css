@@ -1,0 +1,14 @@
+   body {
+        padding: 20px;
+       }  
+     
+       p {
+        color: green;
+     }
+
+     /* classes de Ids */
+     .meu-paragrafo {
+        background-color: black
+
+     }
+     

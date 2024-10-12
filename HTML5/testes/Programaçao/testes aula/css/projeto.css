@@ -1,0 +1,14 @@
+* {
+    padding: 2;
+    margin: 1;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+/* Cabecalho */
+header {
+    text-align: center; 
+    padding: 30px;
+    border-bottom: #0f6a20;
+    background-color: blue;
+    color: beige;
