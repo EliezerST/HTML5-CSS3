@@ -98,14 +98,11 @@ header > p {
     padding-right: 10px;
     padding-bottom: 20px;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.486);
-    
-
 }
+
 nav {
     padding: 10px;
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.356);
-
-
 }
 
 nav > a {
@@ -116,7 +113,6 @@ nav > a {
     font-weight: bold;
     font-family: var(--fonte-padrao);
     transition-duration: 500ms;
-
     
 }
 
@@ -216,8 +212,6 @@ aside h3 {
         color:#ffffff;
         padding: 15px;
         margin: -15px -15px 0px -15px;
-        
-        
 }
 
 
