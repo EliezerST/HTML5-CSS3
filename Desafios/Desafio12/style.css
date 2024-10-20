@@ -59,12 +59,10 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-size: 3.5vw;
-
 }
 
 .texto {
     background-color: #ffff;
-    
 }
 
 .texto p {
@@ -117,5 +115,4 @@ footer {
     text-align: center;
     font-family: var(--fonte1);
     font-weight: 500;
-
 }
