@@ -12,7 +12,7 @@
         table {
             border-collapse:collapse;
             width: 500px;         
-            text-align: center;
+            position: relative;
         }
 
         caption {
@@ -33,8 +33,23 @@
         }
 
         thead, tfoot {
+            background-color: rgb(43, 43, 43);
+            color: #ffffff;
+        }
+
+        thead > th, th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(43, 43, 43); ;
+        }
+
+        tbody > tr:nth-child(odd) { /* 2n-1 */
             background-color: rgb(212, 212, 212);
-            color: #0c0c0c;
+        }
+
+        tbody > tr:nth-child(even) { /* 2n */
+            background-color: rgb(255, 255, 255);
+            font-weight: bold;
         }
 
         td.number {
@@ -165,7 +180,7 @@
                 <td class="number">802 837</td>
             </tr>
             <tr>
-                <th>Roraima</th>
+                <td>Roraima</td>
                 <td class="number">716 793</td>
             </tr>
         </tbody>
