@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset "UTF-8";
 
 /*  Versõa Mobile First */
 
@@ -22,7 +22,7 @@ body {
 
 main {
     background-color: rgba(255, 255, 255, 0.747);
-    width: 90vw;
+    width: 470px;
     margin: auto;
     margin-top: 20px;
     border-radius: 10px;
