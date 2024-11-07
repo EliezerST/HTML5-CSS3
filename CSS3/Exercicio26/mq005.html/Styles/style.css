@@ -22,7 +22,7 @@ header > h1 {
 #burger {
     display: block;
     text-align: center;
-    background-color: #242424;
+    background-color: #131313;
     color: #ffff;
     padding: 15px;
     cursor: pointer;
@@ -46,14 +46,14 @@ menu > ul > li > a {
     text-align: center;
     display: block;
     padding: 10px;
-    background-color: #6e6e6e;
+    background-color: #414141;
     color: #ffff;
     text-decoration: none;
     border-top: 2px solid rgb(121, 121, 121);
 }
 
 menu > ul > li > a:hover {
-    background-color: #d4d4d4;
+    background-color: #a7a7a7;
 }
 
 main {
