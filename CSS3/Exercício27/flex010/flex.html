@@ -8,14 +8,16 @@
         div.Conteiner {
             background-color: bisque;
             display: flex;
-            flex-flow: row nowrap;
+            flex-flow: row wrap;
         }
 
         div.itens {
             background-color: rgb(14, 14, 233);
             border: 1px solid black;
             text-align: center;
-            flex-basis: 150px;
+            flex-basis: 250px;
+            flex-shrink: 1;
+            flex-grow: 1;
         }
 
        
@@ -23,13 +25,9 @@
 </head>
 <body>
     <div class="Conteiner">
-        <div class="itens" >A</div>
-        <div class="itens" >Bffffff fffffffff fffffffffffffff</div>
-        <div class="itens" >Cffffffffffffffffffff ffffffff fffffffffffffffffffff</div>
-        <div class="itens" >D</div>
-        <div class="itens" >E</div>
-        <div class="itens" >Fffffff fffff ffffffffffff ffffffffffff ffffff fffffff ffffffffffff</div>
-        <div class="itens" >G</div>
+        <div class="itens">A</div>
+        <div class="itens">B</div>
+        <div class="itens">C</div>
     </div>
 </body>
 </html>
