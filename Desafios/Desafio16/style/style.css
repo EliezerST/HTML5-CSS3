@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.Menu {
+    background-color: rgb(44, 44, 44);
+    padding: 10px 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+}
+
+.Menu > img {
+    max-width: 50px;
+}
+
+main {
+    background-image: black url(../img/Imagem\ .jpg);
+    width: 300px;
+}
