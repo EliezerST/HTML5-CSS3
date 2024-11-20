@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sriracha&display=swap" rel="stylesheet">
+</head>
+<body>
+        <form action="#">
+            <fieldset>
+                <legend>Formulario do cliente</legend>
+                <div class="Form">
+                    <input type="text" name="name" id="iname" class="inputUser" required>
+                    <label for="iname" class="labelUser">Nome de Usuario</label>
+                </div>
+                <div class="Form">
+                    <input type="email" name="email" id="iemail" class="inputUser" required>
+                    <label for="iemail" class="labelUser">Email</label>
+                </div>
+                <div class="Form">
+                    <input type="number" name="telefone" id="itelefone" class="inputUser" required>
+                    <label for="telefone" class="labelUser">telefone</label>
+                </div>
+                <div class="Radio">
+                    <p>Sexo:</p>
+                    <input type="radio" name="sexo" id="isexo">
+                    <label for="sexo">Masculino</label>
+                </div>
+                <div>
+                    <input type="radio" name="Feminino" id="iFeminino">
+                    <label for="iFeminino">Feminino</label>
+                </div>
+                <div class="Data">
+                    <label for="idata">Data de Nacimento</label>
+                    <input type="date" name="data" id="idata">
+                </div>
+                <div class="Form">
+                    <input type="text" name="cidade" id="icidade" class="inputUser" required>
+                    <label for="icidade" class="labelUser">Cidade</label>
+                </div>
+                <div class="Form">
+                    <input type="text" name="estado" id="iestado" class="inputUser" required>
+                    <label for="iestado" class="labelUser">Estado</label>
+                </div>
+                <div class="Form">
+                    <input type="text" name="endereço" id="iendereço" class="inputUser" required>
+                    <label for="iendereço" class="labelUser">Endereço</label>
+                </div>
+                <button>Enviar</button>
+            </fieldset>
+        </form>
+</body>
+</html>
