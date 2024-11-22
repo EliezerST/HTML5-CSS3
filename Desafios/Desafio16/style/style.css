@@ -25,9 +25,37 @@ nav > ul {
 
 .Menu > img {
     max-width: 50px;
+} 
+
+.background-imag {
+    background: black url(../img/Imagem\ .jpg);
+    height: 25.99em;
+    background-position: center center;
+    background-attachment: fixed;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-main {
-    background-image: black url(../img/Imagem\ .jpg);
-    width: 300px;
+.background-imag h1 {
+    font-size: 4em;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
+}
+
+.texte {
+    margin: auto;
+    max-width: 50em;
+    padding: 20px;
+}
+
+.texte h1 {
+    font-size: 2em;
+    padding-top: 70px;
+}
+
+.texte p {
+    padding-top: 20px ;
 }
